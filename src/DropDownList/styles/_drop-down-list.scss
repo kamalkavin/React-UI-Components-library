@@ -1,0 +1,39 @@
+#drop-down-list {
+	//Your style goes here
+	.pd-container {
+		font-family: Nunito Sans;
+		.pd-btn {
+			border-radius: 4px;
+			border: 1px solid $color-golden-blue !important;
+			background: rgb(244, 250, 254);
+			font-size: 14px;
+			font-weight: 600;
+			&:hover {
+				color: $grey8;
+			}
+			&::after {
+				content: '';
+				border: 0;
+			}
+			&.btn-primary.dropdown-toggle {
+				display: inline-flex;
+				align-items: center;
+				color: $grey8;
+			}
+			.pd-arrow {
+				display: inline-flex;
+				margin-left: 5px;
+			}
+		}
+		.dropdown-menu {
+			width: 100%;
+		}
+		.pd-lbl {
+			color: $filter-key-color;
+			margin-right: 6px;
+			font-family: Nunito sans;
+			font-size: 14px;
+			font-weight: 600;
+		}
+	}
+}

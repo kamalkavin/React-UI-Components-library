@@ -1,0 +1,8 @@
+.select-field {
+	//Your style goes here
+
+	&.no-border > [class$='-control'] {
+		border-color: #cccccc !important;
+		box-shadow: none;
+	}
+}

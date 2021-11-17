@@ -1,0 +1,9 @@
+.alert-info {
+  border-color: $info-icon-blue;
+  border-radius: 4px;
+  background: rgba(55, 121, 229, 0.1);
+
+  .banner-body {
+    color: $info-text-black;
+  }
+}

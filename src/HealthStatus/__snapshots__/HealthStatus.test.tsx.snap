@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HealthStatus Snapshot renders correctly 1`] = `
+<Fragment>
+  <span
+    className="health-status pl-1 pr-2"
+  >
+    <img
+      alt="Health Icon"
+      height="16px"
+      src="led-status-grey.svg"
+      width="16px"
+    />
+    <span
+      className="tooltip-message pl-1"
+    />
+  </span>
+</Fragment>
+`;

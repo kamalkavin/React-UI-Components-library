@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField renders correctly 1`] = `
+<Fragment>
+  <FormControl
+    aria-invalid="false"
+    className="input"
+  />
+</Fragment>
+`;

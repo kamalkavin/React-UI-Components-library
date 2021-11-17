@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ModalWindow Snapshot renders correctly 1`] = `
+<Bootstrap(Modal)
+  backdrop="static"
+  heading="TroubleShoot"
+  id="bootstrap-modal"
+  onHide={[Function]}
+  show={true}
+  size="lg"
+>
+  <ModalHeader
+    closeButton={true}
+    closeLabel="Close"
+  >
+    <ModalTitle
+      className="heading-centered col-md-11"
+      id="contained-modal-title-vcenter"
+    >
+      TroubleShoot
+    </ModalTitle>
+  </ModalHeader>
+  <ModalBody>
+    <div>
+      Hello
+    </div>
+  </ModalBody>
+  <ModalFooter>
+    <span
+      onClick={[Function]}
+    >
+      <Button
+        active={false}
+        disabled={false}
+        type="button"
+        variant="outline-primary"
+      >
+        CLOSE
+      </Button>
+    </span>
+  </ModalFooter>
+</Bootstrap(Modal)>
+`;

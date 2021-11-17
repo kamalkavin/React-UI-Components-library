@@ -1,0 +1,41 @@
+#bootstrap-modal {
+	//Your style goes here
+
+	.modal-content {
+		font-size: $size-font-L;
+		color: $color-neutral-9;
+		.heading-centered {
+			text-align: center;
+			font-size: 20px;
+			font-weight: $font-weight-semiBold;
+			line-height: 1.2;
+		}
+	}
+	.troubleshoot-value {
+		line-height: 1.5;
+	}
+	.troubleshoot-label {
+		font-weight: $font-weight-semiBold;
+		line-height: 1.5;
+	}
+	.toggle-label {
+		cursor: pointer;
+		label {
+			padding-left: 10px;
+			cursor: pointer;
+		}
+	}
+	.modal-window {
+		height: 450px;
+		overflow: auto;
+	}
+	.anchor-text {
+		color: #0742eb;
+	}
+
+	.nrt-fetching-message {
+		font-size: 11px;
+		display: inline-flex;
+		align-items: center;
+	}
+}

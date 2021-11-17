@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectField Snapshot renders correctly 1`] = `
+<Fragment>
+  <StateManager
+    className="select-"
+    components={
+      Object {
+        "Input": [Function],
+      }
+    }
+    defaultInputValue=""
+    defaultMenuIsOpen={false}
+    defaultValue={null}
+    id=""
+    name=""
+    onChange={[Function]}
+    options={Array []}
+    value={Array []}
+  />
+</Fragment>
+`;
