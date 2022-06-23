@@ -13,7 +13,7 @@ storiesOf('Icons/SvgIcon', module)
 	.add('default', () => (
 		<div>
 			<section>
-				<h2>Gigamon Custom SVG Icons</h2>
+				<h2>Custom SVG Icons</h2>
 				<div className='flex flex-row flex-wrap justify-start items-stretch'>
 					{listOfIcons.map((icon, i) => {
 						return (
