@@ -8,7 +8,7 @@ storiesOf('PortIcon', module)
 	.add('default', () => (
 		<div>
 			<section>
-				<h2>Gigamon Custom SVG Icons</h2>
+				<h2>Custom SVG Icons</h2>
 				<div className='flex flex-row flex-wrap justify-start items-stretch'>
 					{listOfIcons.map((icon: any, i) => (
 						<article key={i} id='ad' className='icon-ct'>
