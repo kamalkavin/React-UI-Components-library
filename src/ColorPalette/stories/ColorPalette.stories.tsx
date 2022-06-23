@@ -9,7 +9,7 @@ const colorList = [
 	{
 		category: 'Primary',
 		description:
-			"The primary color is the most prominent color used throughout Gigamon. It's great for drawing the user's eye to particular components.",
+			"The primary color is the most prominent color used throughout the app. It's great for drawing the user's eye to particular components.",
 		variables: ['color-cobalt', 'color-bermuda', 'color-misty-grey', 'color-pacific-blue'],
 	},
 	{
@@ -40,7 +40,7 @@ const colorList = [
 	{
 		category: 'Grays',
 		description:
-			'Grays play an important role in Gigamon, and this set of grays forms the foundation for all the other variants. More prescriptive colors should be favored over these general grays when available.',
+			'Grays play an important role in the app, and this set of grays forms the foundation for all the other variants. More prescriptive colors should be favored over these general grays when available.',
 		variables: [
 			'color-grey-1',
 			'color-grey-2',
@@ -138,7 +138,7 @@ class ColorPalette extends Component {
 			<div className={classPrefix}>
 				<h2>Color Palette</h2>
 
-				<p>This page documents important colors used in Gigamon.</p>
+				<p>This page documents important colors used in this app.</p>
 
 				{colorList.map((group: any, i) => (
 					<div key={i}>
