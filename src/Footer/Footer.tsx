@@ -16,7 +16,7 @@ interface data {
 const Footer: FC<IProps> = (props: IProps) => {
 	const angularData = useSelector((state: any) => state.angularData);
 	const globalData = useSelector((state: any) => state.globalData);
-	const [fMInstanceName, setFMInstanceName] = useState('GigaVUE-FM');
+	const [fMInstanceName, setFMInstanceName] = useState('App');
 	const [nrtTimestamp, setNrtTimestamp] = useState<any>();
 	const [currentDevice, setCurrentDevice] = useState<any>();
 	const [fmCluster, setFMCluster] = useState([]);
@@ -28,8 +28,8 @@ const Footer: FC<IProps> = (props: IProps) => {
 			setFMInstanceName(angularData.fmName);
 			document.title = angularData.fmName;
 		} else {
-			setFMInstanceName('GigaVUE-FM');
-			document.title = 'GigaVUE-FM';
+			setFMInstanceName('App');
+			document.title = 'App';
 		}
 		if (globalData.fmCluster && globalData.fmCluster.nodes && globalData.fmCluster.nodes.length > 0) {
 			let nodes = globalData.fmCluster.nodes;
