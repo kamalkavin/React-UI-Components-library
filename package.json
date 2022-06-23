@@ -1,12 +1,12 @@
 {
-    "name": "Gigamon FM-UI components",
+    "name": "React UI components library",
     "module": "dist/index.js",
     "main": "dist/index.js",
     "sideEffects": [
       "*.css"
     ],
     "version": "1.0.0",
-    "description": "Gigamon Component Library",
+    "description": "Component Library",
     "scripts": {
       "build": "rm -rf ./dist && rollup -c ./rollup.config.js && tsc",
        "build-storybook": "build-storybook -o docs-build"
@@ -48,7 +48,6 @@
       "rollup": "^1.29.1",
       "rollup-plugin-babel": "^4.3.3",
       "rollup-plugin-clean": "^1.0.0",
-      "rollup-plugin-postcss": "git+https://github.com/LukeChannings/rollup-plugin-postcss.git",
       "rollup-plugin-typescript2": "^0.25.3",
       "typescript": "^3.7.5"
     },
