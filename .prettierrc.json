@@ -1,0 +1,10 @@
+{
+	"printWidth": 120,
+	"singleQuote": true,
+	"useTabs": true,
+	"trailingComma": "es5",
+	"jsxSingleQuote": true,
+	"jsxBracketSameLine": true,
+	"tabWidth": 4,
+	"indent": 4
+}
